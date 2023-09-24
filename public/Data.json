@@ -1,0 +1,135 @@
+[
+    {
+      "id": "1",
+      "img": "https://i.ibb.co/TrHvFrq/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "description": "Contribute to the preservation of the world's most vital rainforests and protect biodiversity.",
+      "price": 50,
+      "background_color": "#1ABC9C",
+      "text_color": "#0052FF",
+      "category_bg_color": "#16A085"
+    },
+    {
+      "id": "2",
+      "img": "https://i.ibb.co/TrHvFrq/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "description": "Invest in renewable energy projects for a greener and sustainable future.",
+      "price": 55,
+      "background_color": "#9B59B6",
+      "text_color": "#0052FF",
+      "category_bg_color": "#8E44AD"
+    },
+    {
+      "id": "3",
+      "img": "https://i.ibb.co/TrHvFrq/Rectangle-4284.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "description": "Fund groundbreaking research to find cures and treatments for cancer patients.",
+      "price": 80,
+      "background_color": "#E74C3C",
+      "text_color": "#0052FF",
+      "category_bg_color": "#C0392B"
+    },
+    {
+      "id": "4",
+      "img": "https://i.ibb.co/SydY2h0/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "description": "Provide crucial resources for counseling, therapy, and support programs for those facing mental health challenges.",
+      "price": 60,
+      "background_color": "#E67E22",
+      "text_color": "#FF444A",
+      "category_bg_color": "#D35400"
+    },
+    {
+      "id": "5",
+      "img": "https://i.ibb.co/SydY2h0/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "description": "Empower disadvantaged children with quality education and brighter futures.",
+      "price": 25,
+      "background_color": "#3498DB",
+      "text_color": "#FF444A",
+      "category_bg_color": "#2980B9"
+    },
+    {
+      "id": "6",
+      "img": "https://i.ibb.co/SydY2h0/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "description": "Support scholarships and educational opportunities for students from low-income backgrounds.",
+      "price": 35,
+      "background_color": "#2ECC71",
+      "text_color": "#FF444A",
+      "category_bg_color": "#27AE60"
+    },
+    {
+      "id": "7",
+      "img": "https://i.ibb.co/n1KMYrm/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "description": "Support initiatives that promote equality, diversity, and inclusion in society.",
+      "price": 45,
+      "background_color": "#1ABC9C",
+      "text_color": "#F87147",
+      "category_bg_color": "#16A085"
+    },
+    {
+      "id": "8",
+      "img": "https://i.ibb.co/n1KMYrm/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "description": "Join us in the battle against hunger and food insecurity in our local area.",
+      "price": 75,
+      "background_color": "#F1C40F",
+      "text_color": "#F87147",
+      "category_bg_color": "#D4AC0D"
+    },
+    {
+      "id": "9",
+      "img": "https://i.ibb.co/n1KMYrm/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "description": "Educate the next generation about environmental conservation and sustainable living.",
+      "price": 40,
+      "background_color": "#3498DB",
+      "text_color": "#F87147",
+      "category_bg_color": "#2980B9"
+    },
+    {
+      "id": "10",
+      "img": "https://i.ibb.co/34Cd7tr/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "description": "Ensure access to healthcare services for underserved communities, improving health outcomes.",
+      "price": 70,
+      "background_color": "#2ECC71",
+      "text_color": "#79C23F",
+      "category_bg_color": "#27AE60"
+    },
+    {
+      "id": "11",
+      "img": "https://i.ibb.co/34Cd7tr/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "description": "Support initiatives to increase diversity and inclusion in the technology industry.",
+      "price": 30,
+      "background_color": "#E67E22",
+      "text_color": "#79C23F",
+      "category_bg_color": "#D35400"
+    },
+    {
+      "id": "12",
+      "img": "https://i.ibb.co/34Cd7tr/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "description": "Support artists and make art accessible to everyone through exhibitions, workshops, and cultural programs.",
+      "price": 20,
+      "background_color": "#9B59B6",
+      "text_color": "#79C23F",
+      "category_bg_color": "#8E44AD"
+    }
+  ]
+  

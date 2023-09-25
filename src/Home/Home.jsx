@@ -1,16 +1,20 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "./Banner/Banner";
 import Allcarts from "../Components/Allcarts/Allcarts";
+// import { useEffect, useState } from "react";
 
 const Home = () => {
-    const donationData = useLoaderData()
+    // const [donationValue , setDonationValue]=useState([])
+    const donationValue = useLoaderData()
+    // useEffect(()=>{
+    // },[])
+    // setDonationValue(donationData)
     // console.log(donationData)
     return (
         <div>
 
-            <h1>this is home</h1>
             <Banner></Banner>
-            <Allcarts donationData={donationData}></Allcarts>
+            <Allcarts donationValue={donationValue}></Allcarts>
         </div>
     );
 };

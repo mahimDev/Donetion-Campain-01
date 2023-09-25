@@ -8,7 +8,7 @@ const Allcart = ({ donation }) => {
 
         <div >
          <Link to={`/view/${id}`}>
-         <div  className="relative flex max-w-[24rem] flex-col rounded-xl   bg-clip-border  shadow-md">
+         <div style={{background : `${background_color}`}} className="relative flex max-w-[24rem] flex-col rounded-xl   bg-clip-border  shadow-md">
                 <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border  shadow-none">
                     <img
                         className="w-full h-40"

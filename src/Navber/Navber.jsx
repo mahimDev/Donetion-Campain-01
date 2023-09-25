@@ -2,8 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Navber = () => {
     return (
-        <div className="flex items-center justify-between px-10 py-3">
-            <div>
+        <div className="absolute w-full">
+           <div className="flex items-center justify-between px-10 py-3  ">
+           <div>
                 <img className="w-40" src="https://i.ibb.co/RN23rLP/Logo.png" alt="" />
             </div>
             <div>
@@ -41,6 +42,7 @@ const Navber = () => {
 
                 </ul>
             </div>
+           </div>
 
         </div>
     );

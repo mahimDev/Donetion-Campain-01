@@ -17,10 +17,12 @@ const Allcart = ({ donation }) => {
                     />
                 </div>
                 <div className="p-6">
-                    <h4 className={`block font-sans text-[${text_color}]  text-2xl font-semibold leading-snug tracking-normal  antialiased`}>
+                   <div style={{backgroundColor:`${category_bg_color}`,color:`${text_color}`}} className="w-20 rounded">
+                   <h4  className="text-center px-2 py-1 rounded-md block font-sans  text-lg font-medium leading-snug tracking-normal  antialiased">
                         {category}
                     </h4>
-                    <p className="mt-3 block font-sans text-xl font-normal leading-relaxed  antialiased">
+                   </div>
+                    <p style={{color:`${text_color}`}} className="mt-3 block font-sans text-xl font-normal leading-relaxed  antialiased">
                         {title}
                     </p>
                 </div>

@@ -8,7 +8,7 @@ const Navber = () => {
                 <img className="w-40" src="https://i.ibb.co/RN23rLP/Logo.png" alt="" />
             </div>
             <div>
-                <ul className="flex gap-4 font-medium ">
+                <ul className="flex gap-5 font-semibold ">
                     <li>
                         <NavLink
                             to="/"

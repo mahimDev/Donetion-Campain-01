@@ -6,9 +6,9 @@
       "category": "Health",
       "description": "Contribute to the preservation of the world's most vital rainforests and protect biodiversity.",
       "price": 50,
-      "background_color": "#1ABC9C",
+      "background_color": "#0052FF26",
       "text_color": "#0052FF",
-      "category_bg_color": "#16A085"
+      "category_bg_color": "rgba(0, 82, 255, 0.20)"
     },
     {
       "id": "2",
@@ -17,9 +17,9 @@
       "category": "Health",
       "description": "Invest in renewable energy projects for a greener and sustainable future.",
       "price": 55,
-      "background_color": "#9B59B6",
+      "background_color": "#0052FF26",
       "text_color": "#0052FF",
-      "category_bg_color": "#8E44AD"
+      "category_bg_color": "rgba(0, 82, 255, 0.20)"
     },
     {
       "id": "3",
@@ -28,9 +28,9 @@
       "category": "Health",
       "description": "Fund groundbreaking research to find cures and treatments for cancer patients.",
       "price": 80,
-      "background_color": "#E74C3C",
+      "background_color": "#0052FF26",
       "text_color": "#0052FF",
-      "category_bg_color": "#C0392B"
+      "category_bg_color": "rgba(0, 82, 255, 0.20)"
     },
     {
       "id": "4",
@@ -39,9 +39,9 @@
       "category": "Education",
       "description": "Provide crucial resources for counseling, therapy, and support programs for those facing mental health challenges.",
       "price": 60,
-      "background_color": "#E67E22",
+      "background_color": "#FF444A26",
       "text_color": "#FF444A",
-      "category_bg_color": "#D35400"
+      "category_bg_color": "rgba(255, 68, 74, 0.20)"
     },
     {
       "id": "5",
@@ -50,9 +50,9 @@
       "category": "Education",
       "description": "Empower disadvantaged children with quality education and brighter futures.",
       "price": 25,
-      "background_color": "#3498DB",
+      "background_color": "#FF444A26",
       "text_color": "#FF444A",
-      "category_bg_color": "#2980B9"
+      "category_bg_color": "rgba(255, 68, 74, 0.20)"
     },
     {
       "id": "6",
@@ -61,9 +61,9 @@
       "category": "Education",
       "description": "Support scholarships and educational opportunities for students from low-income backgrounds.",
       "price": 35,
-      "background_color": "#2ECC71",
+      "background_color": "#FF444A26",
       "text_color": "#FF444A",
-      "category_bg_color": "#27AE60"
+      "category_bg_color": "rgba(255, 68, 74, 0.20)"
     },
     {
       "id": "7",
@@ -72,9 +72,9 @@
       "category": "Food",
       "description": "Support initiatives that promote equality, diversity, and inclusion in society.",
       "price": 45,
-      "background_color": "#1ABC9C",
+      "background_color": "#F8714726",
       "text_color": "#F87147",
-      "category_bg_color": "#16A085"
+      "category_bg_color": "rgba(248, 113, 71, 0.20)"
     },
     {
       "id": "8",
@@ -83,9 +83,9 @@
       "category": "Food",
       "description": "Join us in the battle against hunger and food insecurity in our local area.",
       "price": 75,
-      "background_color": "#F1C40F",
+      "background_color": "#F8714726",
       "text_color": "#F87147",
-      "category_bg_color": "#D4AC0D"
+      "category_bg_color": "rgba(248, 113, 71, 0.20)"
     },
     {
       "id": "9",
@@ -94,9 +94,9 @@
       "category": "Food",
       "description": "Educate the next generation about environmental conservation and sustainable living.",
       "price": 40,
-      "background_color": "#3498DB",
+      "background_color": "#F8714726",
       "text_color": "#F87147",
-      "category_bg_color": "#2980B9"
+      "category_bg_color": "rgba(248, 113, 71, 0.20)"
     },
     {
       "id": "10",
@@ -105,9 +105,9 @@
       "category": "Clothing",
       "description": "Ensure access to healthcare services for underserved communities, improving health outcomes.",
       "price": 70,
-      "background_color": "#2ECC71",
+      "background_color": "#79C23F26",
       "text_color": "#79C23F",
-      "category_bg_color": "#27AE60"
+      "category_bg_color": "rgba(121, 194, 63, 0.20)"
     },
     {
       "id": "11",
@@ -116,9 +116,9 @@
       "category": "Clothing",
       "description": "Support initiatives to increase diversity and inclusion in the technology industry.",
       "price": 30,
-      "background_color": "#E67E22",
+      "background_color": "#79C23F26",
       "text_color": "#79C23F",
-      "category_bg_color": "#D35400"
+      "category_bg_color": "rgba(121, 194, 63, 0.20)"
     },
     {
       "id": "12",
@@ -127,9 +127,9 @@
       "category": "Clothing",
       "description": "Support artists and make art accessible to everyone through exhibitions, workshops, and cultural programs.",
       "price": 20,
-      "background_color": "#9B59B6",
+      "background_color": "#79C23F26",
       "text_color": "#79C23F",
-      "category_bg_color": "#8E44AD"
+      "category_bg_color": "rgba(121, 194, 63, 0.20)"
     }
   ]
   

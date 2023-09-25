@@ -1,6 +1,6 @@
-import { setItem } from "localforage";
+import Swal from 'sweetalert2'
 import { useEffect, useState } from "react";
-import { json, useLoaderData, useParams } from "react-router-dom";
+import {useLoaderData, useParams } from "react-router-dom";
 
 
 const View = () => {
@@ -21,12 +21,25 @@ const View = () => {
         if(!getItems){
             addItems.push(donation)
              localStorage.setItem('donation',JSON.stringify(addItems))
-             alert('hoise')
+             
             
         }else{
             addItems.push(...getItems,donation)
             localStorage.setItem('donation',JSON.stringify(addItems))
-            alert('added')
+            Swal.fire({
+                title: 'Do you want to save the changes?',
+                showDenyButton: true,
+                showCancelButton: true,
+                confirmButtonText: 'Save',
+                denyButtonText: `Don't save`,
+              }).then((result) => {
+                /* Read more about isConfirmed, isDenied below */
+                if (result.isConfirmed) {
+                  Swal.fire('Saved!', '', 'success')
+                } else if (result.isDenied) {
+                  Swal.fire('Changes are not saved', '', 'info')
+                }
+              }) 
         }
 
         // const setItem = JSON.stringify(localStorage.setItem([{name:'mahim'},{name:'mua'}]))
@@ -35,12 +48,13 @@ const View = () => {
     }
 
     return (
-        <div className="text-center mb-10">
+        <div className="text-center mb-10 pt-32">
             <div className=" flex justify-center">
                 <div className="relative">
                     <img className="  md:h-[50vh] lg:h-[70vh] w-auto rounded-lg  " src={img} alt="" />
                     <div className="bg-[#00000083] absolute  flex justify-start  bottom-0 w-full py-10">
                         <button
+                           style={{backgroundColor:`${donation.text_color}`}}
                             onClick={handleClickDonait}
                             className=" ml-10    rounded-lg bg-gray-700 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-gray-500/20 transition-all hover:shadow-lg hover:shadow-gray-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                             data-ripple-light="true"

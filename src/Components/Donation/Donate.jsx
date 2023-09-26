@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Donate = ({ donat }) => {
@@ -30,7 +31,8 @@ const Donate = ({ donat }) => {
 
                         ${price}
                     </p>
-                    <a className="inline-block" href="#">
+                    <Link to='/view/'>
+                   
                         <button
                             className="flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                             type="button"
@@ -52,7 +54,7 @@ const Donate = ({ donat }) => {
                                 ></path>
                             </svg>
                         </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

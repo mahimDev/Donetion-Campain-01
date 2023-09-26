@@ -46,14 +46,14 @@ const Navber = () => {
                             >
                                 Statistics
                             </NavLink>
-                        </li>
+                        </li>    
 
                     </ul>
 
                 </div>
-                <div className="text-left bg-red-500 rounded-full md:hidden block">
+                <div className="text-left  bg-red-500 rounded-full md:hidden block">
                     <Menu >
-                        <MenuHandler>
+                        <MenuHandler >
                          <Button> <FaAlignRight/></Button> 
                         </MenuHandler>
                         <MenuList>

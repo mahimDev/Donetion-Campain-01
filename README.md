@@ -1,8 +1,10 @@
-# React + Vite
+There are three features of my project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+• Interactive Donation Cart:
+When you click on a donation cart, it reveals its details. Additionally, clicking on the donation button will add the selected item to the donation cart.
 
-Currently, two official plugins are available:
+• Donation Percentage Visualization:
+The pie chart visually represents the proportion of donations made compared to the total donations received.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+• Category-based Search:
+Searching by category name displays individual category cards, each separately showcasing its contents.
